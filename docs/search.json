@@ -46,7 +46,7 @@
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale, where data of fine spatio-temporal resolution is limited."
+    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale when data of fine spatio-temporal resolution is limited."
   },
   {
     "objectID": "research/index.html#climate-smart-mangrove-conservation",
@@ -74,7 +74,7 @@
     "href": "research/index.html#climate-smart-conservation",
     "title": "Research",
     "section": "",
-    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale, where data of fine spatio-temporal resolution is limited."
+    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale when data of fine spatio-temporal resolution is limited."
   },
   {
     "objectID": "outreach/index.html",
@@ -95,6 +95,6 @@
     "href": "outreach/index.html#programming",
     "title": "Outreach & Teaching",
     "section": "Programming",
-    "text": "Programming\nI enjoy teaching and, in addition to experience tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this intro to R spatial and this intro to RShiny. Watch the youtube recording here.\nI also help teach quantitative methods in the R programming language in an annual 4-day workshop, sign up for the next even in February 2024."
+    "text": "Programming\nI enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this intro to R spatial and this intro to RShiny. Watch the youtube recording here.\nI also help teach quantitative methods in the R programming language in an annual 4-day workshop, sign up for the next even in February 2024."
   }
 ]
