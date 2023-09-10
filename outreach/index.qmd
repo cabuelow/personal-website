@@ -1,0 +1,15 @@
+---
+title: Outreach & Teaching
+---
+
+## Geospatial community
+
+I'm an active organising committee member for the [Geospatial Community](https://brisbane-geocommunity.netlify.app/). We run virtual workshops to learn techniques in spatial data science.
+
+## Programming
+
+I enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this [intro to R spatial](https://github.com/cabuelow/R-spatial-2022) and this [intro to RShiny](https://github.com/cabuelow/intro-rshiny-mapping). Watch the youtube recording [here](https://www.youtube.com/watch?v=aBoQ0rcY_NU&t=2152s).
+
+I also help teach quantitative methods in the R programming language in an annual 4-day workshop, [sign up for the next even in February 2024](https://smp.uq.edu.au/events).
+
+![](r-workshop.png)

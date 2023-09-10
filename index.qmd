@@ -15,8 +15,10 @@ about:
 ::: {#about-block}
 :::
 
-# Biography
+I'm a quantitative ecologist trying to solve challenging problems related to conservation and sustainable use of Earth's ecosystems. I use models - spatial, statistical, mathematical - to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set [scientifically-sound targets for mangrove and seagrass conservation](https://www.sciencedirect.com/science/article/pii/S0960982222002354). To ensure that research can reach end-users, I also develop web-tools to enable engagement, e.g., [this tool for exploring data that can inform conservation of the world's Blue Forest ecosystems](https://global-wetlands.shinyapps.io/blue-forests-app/).
 
-Work in progress! Please come back again soon.
+Find out more on the [Research page](research/index.qmd).
 
-Please feel free to [contact me](mailto:mail.c.buelow@griffith.edu.au) if you have any questions or would like to discuss potential projects.
+Currently, I'm a Research Fellow with the [Global Wetlands Project](https://globalwetlandsproject.org/) at [Griffith University](https://www.griffith.edu.au/).
+
+[Get in touch](mailto:mail.c.buelow@griffith.edu.au).

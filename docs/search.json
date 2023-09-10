@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Biography",
+    "title": "Christina Buelow",
     "section": "",
-    "text": "Github\n  \n  \n    \n     Email\n  \n\n\n\n\nBiography\nWork in progress! Please come back again soon.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
+    "text": "Github\n  \n  \n    \n     Email\n  \n\n\n\nI’m a quantitative ecologist trying to solve challenging problems related to conservation and sustainable use of Earth’s ecosystems. I use models - spatial, statistical, mathematical - to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set scientifically-sound targets for mangrove and seagrass conservation. To ensure that research can reach end-users, I also develop web-tools to enable engagement, e.g., this tool for exploring data that can inform conservation of the world’s Blue Forest ecosystems.\nFind out more on the Research page.\nCurrently, I’m a Research Fellow with the Global Wetlands Project at Griffith University.\nGet in touch."
   },
   {
     "objectID": "cv/index.html",
@@ -40,5 +40,61 @@
     "title": "Projects",
     "section": "Tools",
     "text": "Tools"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale, where data of fine spatio-temporal resolution is limited."
+  },
+  {
+    "objectID": "research/index.html#climate-smart-mangrove-conservation",
+    "href": "research/index.html#climate-smart-mangrove-conservation",
+    "title": "Projects",
+    "section": "",
+    "text": "Description placeholder"
+  },
+  {
+    "objectID": "research/index.html#conservation-theories-of-change",
+    "href": "research/index.html#conservation-theories-of-change",
+    "title": "Research",
+    "section": "Conservation Theories of Change",
+    "text": "Conservation Theories of Change\n‘Theories of Change’ are a tool for planning conservation strategies, and define how actions will lead to desired socio-ecological outcomes. Theories of Change could be made more robust through explicit integration of enabling conditions, and via more rigorous testing and adaptation with causal theory and ecosystem models. I’m interested in using models and validation techniques to make global-scale mapping of conservation priorities and their Theories of Change more robust."
+  },
+  {
+    "objectID": "research/index.html#tools",
+    "href": "research/index.html#tools",
+    "title": "Projects",
+    "section": "Tools",
+    "text": "Tools"
+  },
+  {
+    "objectID": "research/index.html#climate-smart-conservation",
+    "href": "research/index.html#climate-smart-conservation",
+    "title": "Research",
+    "section": "",
+    "text": "How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.\nIn collaboration with the World Wildlife Fund, we’re developing novel approaches for forecasting the future of mangroves at the global scale, where data of fine spatio-temporal resolution is limited."
+  },
+  {
+    "objectID": "outreach/index.html",
+    "href": "outreach/index.html",
+    "title": "Outreach & Teaching",
+    "section": "",
+    "text": "I’m an active organising committee member for the Geospatial Community. We run virtual workshops to learn techniques in spatial data science."
+  },
+  {
+    "objectID": "outreach/index.html#geospatial-community",
+    "href": "outreach/index.html#geospatial-community",
+    "title": "Outreach & Teaching",
+    "section": "",
+    "text": "I’m an active organising committee member for the Geospatial Community. We run virtual workshops to learn techniques in spatial data science."
+  },
+  {
+    "objectID": "outreach/index.html#programming",
+    "href": "outreach/index.html#programming",
+    "title": "Outreach & Teaching",
+    "section": "Programming",
+    "text": "Programming\nI enjoy teaching and, in addition to experience tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this intro to R spatial and this intro to RShiny. Watch the youtube recording here.\nI also help teach quantitative methods in the R programming language in an annual 4-day workshop, sign up for the next even in February 2024."
   }
 ]
