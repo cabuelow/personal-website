@@ -1,0 +1,60 @@
+# website settings
+website:
+  title: "Christina Buelow"                                # Your name
+  description: "Quantitative ecologist"   # A brief slogan (optional)
+  image: img/my_image.jpeg
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    
+    # your sub-pages
+    left:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    # links
+    right:
+      - icon: github
+        href: https://github.com/cabuelow
+      - icon: folder-symlink
+        href: https://globalwetlandsproject.org/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:c.buelow@griffith.edu.au"  
+  
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2023 Christina Buelow CC BY-SA 4.0</span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

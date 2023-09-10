@@ -1,0 +1,22 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/my_image.jpeg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/cabuelow
+    - icon: envelope
+      text: Email
+      href: "mailto:c.buelow@griffith.edu.au"  
+---
+
+::: {#about-block}
+:::
+
+# Biography
+
+About me
+
+Please feel free to [contact me](mailto:mail.c.buelow@griffith.edu.au) if you have any questions or would like to discuss potential projects.
