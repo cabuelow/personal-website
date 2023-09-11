@@ -12,4 +12,4 @@ I enjoy teaching and, in addition to tutoring and guest lecturing, I have develo
 
 I also help teach quantitative methods in the R programming language in an annual 4-day workshop, [sign up for the next event in February 2024](https://smp.uq.edu.au/events).
 
-![](r-workshop.png)
+![](r-workshop.jpeg)
