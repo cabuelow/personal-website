@@ -4,7 +4,7 @@ title: Research
 
 ## Climate-smart conservation
 
-How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts, but useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.
+How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts. However, useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.
 
 In collaboration with the World Wildlife Fund, we're developing novel approaches for forecasting the future of mangroves at the global scale when data of fine spatio-temporal resolution is limited.
 
@@ -12,7 +12,7 @@ In collaboration with the World Wildlife Fund, we're developing novel approaches
 
 ## Conservation Theories of Change
 
-'Theories of Change' are a tool for planning conservation strategies, and define how actions will lead to desired socio-ecological outcomes. Theories of Change could be made more robust through explicit integration of [enabling conditions](https://www.researchsquare.com/article/rs-2184542/v1), and via more rigorous testing and adaptation with causal theory and ecosystem models. I'm interested in using models and validation techniques to make global-scale mapping of conservation priorities and their Theories of Change more robust. 
+'Theories of Change' are a tool for planning conservation strategies, and define how actions will lead to desired socio-ecological outcomes. Theories of Change could be made more robust through explicit integration of [enabling conditions](https://www.researchsquare.com/article/rs-2184542/v1), and via more rigorous testing and adaptation with causal theory and ecosystem models. I'm interested in using models and validation techniques to make global-scale mapping of conservation priorities and their Theories of Change more robust. I'm lucky to collaborate with a [diverse team of experts](https://www.sesync.org/research/mangrove-science-action), including environmental lawyers, to do so. 
 
 ----
 

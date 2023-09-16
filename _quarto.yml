@@ -14,8 +14,6 @@ website:
         href: research/index.qmd
       - text: "Outreach & Teaching"
         href: outreach/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
     
     # links
     right:
@@ -26,6 +24,8 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:c.buelow@griffith.edu.au"  
+      - icon: file-earmark-richtext
+        href: https://scholar.google.com.au/citations?user=0zkZcKwAAAAJ&hl=en
   
 # Don't touch unless you know what you are doing :) ------------
   search: 

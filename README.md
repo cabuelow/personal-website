@@ -6,5 +6,4 @@ This repository contains code for my personal website, initiated using the templ
 
 - [ ] Add a publications page
 - [ ] add images
-- [ ] Add CV
 - [ ] Finish adding to research page

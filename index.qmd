@@ -7,6 +7,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/cabuelow
+    - icon: file-earmark-richtext
+      text: Publications
+      href: https://scholar.google.com.au/citations?user=0zkZcKwAAAAJ&hl=en
     - icon: envelope
       text: Email
       href: "mailto:c.buelow@griffith.edu.au"  
@@ -15,7 +18,7 @@ about:
 ::: {#about-block}
 :::
 
-I'm a quantitative ecologist trying to solve challenging problems related to conservation and sustainable use of Earth's ecosystems. I use models - spatial, statistical, mathematical - to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set [scientifically-sound targets for mangrove and seagrass conservation](https://www.sciencedirect.com/science/article/pii/S0960982222002354). To ensure that research can reach end-users, I also develop web-tools to enable engagement, e.g., [this tool for exploring data that can inform conservation of the world's Blue Forest ecosystems](https://global-wetlands.shinyapps.io/blue-forests-app/).
+I'm a quantitative ecologist solving challenging problems related to conservation and sustainable use of Earth's ecosystems. I use models - spatial, statistical, mathematical - to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set [scientifically-sound targets for mangrove and seagrass conservation](https://www.sciencedirect.com/science/article/pii/S0960982222002354). To engage and inform end-users I develop web tools, e.g., [this tool for exploring data related to conservation of the world's Blue Forest ecosystems](https://global-wetlands.shinyapps.io/blue-forests-app/).
 
 Find out more on the [Research page](research/index.qmd).
 
