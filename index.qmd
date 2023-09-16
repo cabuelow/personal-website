@@ -20,7 +20,7 @@ about:
 
 I'm a quantitative ecologist solving challenging problems related to conservation and sustainable use of Earth's ecosystems. I use models - spatial, statistical, mathematical - to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set [scientifically-sound targets for mangrove and seagrass conservation](https://www.sciencedirect.com/science/article/pii/S0960982222002354). To engage and inform end-users I develop web tools, e.g., [this tool for exploring data related to conservation of the world's Blue Forest ecosystems](https://global-wetlands.shinyapps.io/blue-forests-app/).
 
-Find out more on the [Research page](research/index.qmd).
+Find out more on the [Research](research/index.qmd) and [Outreach & Teaching](outreach/index.qmd) pages.
 
 Currently, I'm a Research Fellow with the [Global Wetlands Project](https://globalwetlandsproject.org/) at [Griffith University](https://www.griffith.edu.au/).
 
