@@ -96,5 +96,12 @@
     "title": "Outreach & Teaching",
     "section": "Programming",
     "text": "Programming\nI enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this intro to R spatial and this intro to RShiny. Watch the youtube recording of the workshop here.\nI also help teach quantitative methods in the R programming language in an annual 5-day workshop, sign up for the next event in February 2024."
+  },
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Blue Forest Data Explorer\nThis app was built through a series of end-user engagement workshops to inform the World Wildlife Fund’s Blue Forest Initiative’s 10-year conservation strategy.\n\nEnabling profiles for operationalising global Theories of Change\nExplore enabling profiles for coastal wetland conservation and case-study Theories of Change.\n\nMapping and modelling mangrove futures in a changing climate\nExplore historical and future climatic and anthropogenic impacts to mangroves, and what this means for future losses and gains in extent.\n\nSet ambitious targets for mangrove and seagrass recovery\nThis tool allows end-users to set global conservation targets and estimate the rates at which countries will need to protect and restore to achieve them.\n\nFind the code for these tools and their models here"
   }
 ]

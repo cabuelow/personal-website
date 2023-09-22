@@ -1,0 +1,31 @@
+---
+title: Tools
+---
+------
+
+[Blue Forest Data Explorer](https://global-wetlands.shinyapps.io/blue-forests-app/)
+
+This app was built through a series of end-user engagement workshops to inform the World Wildlife Fund's Blue Forest Initiative's 10-year conservation strategy.
+
+------
+
+[Enabling profiles for operationalising global Theories of Change](https://cbuelow.shinyapps.io/enabling-profiles)
+
+Explore enabling profiles for coastal wetland conservation and case-study Theories of Change.
+
+------
+
+[Mapping and modelling mangrove futures in a changing climate](https://mangrove-climate-risk-mapping.netlify.app)
+
+Explore historical and future climatic and anthropogenic impacts to mangroves, and what this means for future losses and gains in extent.
+
+------
+
+[Set ambitious targets for mangrove and seagrass recovery](https://cbuelow.shinyapps.io/target-setting/)
+
+This tool allows end-users to set global conservation targets and estimate the rates at which countries will need to protect and restore to achieve them.
+
+------
+
+
+Find the code for these tools and their models [here](https://github.com/cabuelow)
