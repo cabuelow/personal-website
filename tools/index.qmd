@@ -3,7 +3,7 @@ title: Tools
 ---
 ------
 
-[Blue Forest Data Explorer](https://global-wetlands.shinyapps.io/blue-forests-app/)
+[Blue Forest Data Explorer](https://cbuelow.shinyapps.io/blue-forests-application/)
 
 This app was built through a series of end-user engagement workshops to inform the World Wildlife Fund's Blue Forest Initiative's 10-year conservation strategy.
 
