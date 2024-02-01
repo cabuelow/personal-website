@@ -4,7 +4,7 @@ title: Research
 
 ## Climate-smart conservation
 
-How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts. However, useful forecasts of ecosystem change can be challenging to make the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.
+How can we know where ecosystems, such as mangroves, are likely to adapt or be lost in the future? We need this information so that we can choose the right places to prioritise conservation and restoration efforts. However, useful forecasts of ecosystem change can be challenging to make at the global scale, particularly with coarse datasets that are unable to capture processes operating at fine spatial scales.
 
 In collaboration with the World Wildlife Fund, we're developing novel approaches for forecasting the future of mangroves at the global scale when data of fine spatio-temporal resolution is limited.
 
