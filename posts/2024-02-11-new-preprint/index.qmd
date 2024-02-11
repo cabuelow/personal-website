@@ -19,7 +19,7 @@ Life is full of uncertainties. Ironically, this is probably one of the few thing
 
 As an ecological modeller, I think about uncertainty and it’s causes and consequences all the time. In fact, a big part of my job is quantifying uncertainty; for instance, how precise is our estimate of the relationship between temperature and species richness? 
 
-Last year, myself and collaborators spent a lot of time thinking about how **mis-matches in the spatio-temporal resolution of data available to estimate ecological relationships**, like the response of mangroves to sea-level rise, translate to forecast uncertainty. Sea-level rises at rates of millimeters per year. How can we model the future response of mangroves to this process when most digital elevation models have errors of up to +/- metres? It seemed an impossible task, especially at the global scale.
+Last year, myself and collaborators spent a lot of time thinking about how **mis-matches in the spatio-temporal resolution of data available to estimate ecological relationships**, like the response of mangroves to sea-level rise, **translate to forecast uncertainty**. Sea-level rises at rates of **millimeters** per year. How can we model the future response of mangroves to this process when most digital elevation models have errors of up to +/- **metres**? It seemed an impossible task, especially at the global scale.
 
 So, rather than try to precisely measure all processes required to forecast change in mangrove extent, we opted to embrace uncertainty associated with data-process scale mis-matches. We accepted that we would not be able to parameterise the processes in our global forecasting models with the accuracy and precision required to make quantitative forecasts of extent change.
 
