@@ -54,6 +54,9 @@ execute:
 
 format:
   html:
+    include-in-header:
+      - text: |
+          <meta name="google-site-verification" content="XWHq5ekAgCY4iLA3SBjmaQxi1GB3xhPjn9F9npLuffE" />
     fontsize: 1.1em
     theme: 
       - pulse
