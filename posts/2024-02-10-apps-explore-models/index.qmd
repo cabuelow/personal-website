@@ -1,0 +1,32 @@
+---
+title: "Building better models with web apps"
+description: "Apps make model development more rigourous, and more fun too"
+author:
+  - name: Christina Buelow
+date: 2024-02-10
+categories: [Models, Conservation, Communication] # self-defined categories
+citation: 
+  url: https://cabuelow.github.io/personal-website/posts/2024-02-10-apps-explore-models/ 
+image: app.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Early this year I sat down to start developing a mathematical model to inform the rates at which mangroves need to be protected and/or restored to achieve ecosystem service targets. I started with a simple schematic of the model - how will different coastal landscape states (e.g., protected forest vs. unprotected deforested areas) transition through time, and what processes cause these transitions?
+
+For me, this often looks like chicken scratch...
+![Brainstorming and conceptualising...](scratch.png)
+
+Once I had the conceptual model, I started writing out the maths to model the transitions through time. Rather than doing this on paper, I chose to write it in [Quarto](https://quarto.org/) so that I program the model as I was writing the maths. 
+
+**Quarto** is a nice tool that allows you to write [markdown](https://en.wikipedia.org/wiki/Markdown) and make beautiful webpages very quickly that contain richly formatted text, program code, and code output (e.g., plots and graphs). It allowed me to set model parameters and test my model as I programmed it and visualise model output to make sure the model and code was working as expected. I planned to send a .html version of the doc to collaborators so that they could see exactly how the model was developed and what the expected outputs would be. 
+
+![Screenshot of standard **Quarto** doc combinging images, text, code, and code output](quarto.png)
+
+Somewhere along the way, however, I started turning the **Quarto** doc into a shiny app. The main benefit of a shiny app over a standard **Quarto** doc was the ability to change all of the 20+ model parameters across their ranges, quickly re-run the model, and visualise the model output almost instantly. The shiny app is able to **react** to changes is model parameters, whereas the standard **Quarto** is not reactive (note however you can easily embed shiny apps in Quarto docs (which is what I did), or use [ObservableJS](https://quarto.org/docs/interactive/ojs/) so you don't need to host the web app on a server).
+
+{{< video app-gif.mp4 >}}
+Play with the app [here](https://cbuelow.shinyapps.io/prioritise-actions/)
+
+This turned out to be a really fun way to develop a model because I got to see what the model was doing every time I added something new. Also, because I was able to fully explore model outputs across the entire parameter space as I developed the model, I was able to more quickly discover and correct bugs.
+
+I'm hoping the app will also become a tool for communicating with stakeholders, as now that it is a reactive web app, anyone can explore the model without needing programming software on their computer to run it. 

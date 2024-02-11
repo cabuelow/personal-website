@@ -22,12 +22,6 @@ Explore enabling profiles for coastal wetland conservation and case-study Theori
 
 ------
 
-[Mapping and modelling mangrove futures in a changing climate](https://mangrove-climate-risk-mapping.netlify.app)
-
-Explore historical and future climatic and anthropogenic impacts to mangroves, and what this means for future losses and gains in extent.
-
-------
-
 [Set ambitious targets for mangrove and seagrass recovery](https://cbuelow.shinyapps.io/target-setting/)
 
 This tool allows end-users to set global conservation targets and estimate the rates at which countries will need to protect and restore to achieve them.
