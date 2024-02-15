@@ -1,5 +1,5 @@
 ---
-title: "Building better models with web apps"
+title: "Building better models with reactive applications"
 description: "Apps make model development more rigourous, and more fun too"
 author:
   - name: Christina Buelow
