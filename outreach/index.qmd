@@ -4,12 +4,25 @@ title: Outreach & Teaching
 
 ## Geospatial community
 
-I'm an active organising committee member for the [Geospatial Community](https://brisbane-geocommunity.netlify.app/). We run virtual workshops to learn techniques in spatial data science.
+I'm an active organising committee member for [Geospatial Share](https://brisbane-geocommunity.netlify.app/). Our mission is to build a **supportive and inclusive** community where students, researchers, and professionals can grow their geospatial skills together. We run virtual workshops to learn techniques in spatial data science.
 
 ## Programming
 
-I enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science programming such as this [intro to R spatial](https://cabuelow.quarto.pub/r-for-mapping-and-more/) and this [intro to RShiny](https://github.com/cabuelow/intro-rshiny-mapping#readme). Watch the youtube recording of the workshop [here](https://www.youtube.com/watch?v=aBoQ0rcY_NU&t=2152s).
+----
+I enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science:
+----
 
-I also help teach quantitative methods in the R programming language in an annual 5-day workshop, [sign up for the next event in February 2024](https://smp.uq.edu.au/events).
+[Intro to R spatial](https://cabuelow.quarto.pub/r-for-mapping-and-more/)
 
-![](r-workshop.png)
+----
+
+[Intro to RShiny](https://github.com/cabuelow/intro-rshiny-mapping#readme). 
+Watch the youtube recording of the workshop [here](https://www.youtube.com/watch?v=aBoQ0rcY_NU&t=2152s).
+
+----
+
+[Calculating areas in R](https://cabuelow.quarto.pub/calculating-areas-with-vector-and-raster-data-in-r/)
+
+----
+
+[Intro to simulating data in R](https://www.seascapemodels.org/SDM-fish-course-notes/Intro-data-simulation_2021-09-17.html)
