@@ -9,7 +9,9 @@ I'm an active organising committee member for [Geospatial Share](https://brisban
 ## Programming
 
 ----
+
 I enjoy teaching and, in addition to tutoring and guest lecturing, I have developed and taught tutorials in spatial data science:
+
 ----
 
 [Intro to R spatial](https://cabuelow.quarto.pub/r-for-mapping-and-more/)
@@ -24,5 +26,4 @@ Watch the youtube recording of the workshop [here](https://www.youtube.com/watch
 [Calculating areas in R](https://cabuelow.quarto.pub/calculating-areas-with-vector-and-raster-data-in-r/)
 
 ----
-
-[Intro to simulating data in R](https://www.seascapemodels.org/SDM-fish-course-notes/Intro-data-simulation_2021-09-17.html)
+Find the code and data for these workshops [here](https://github.com/cabuelow)
