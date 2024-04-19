@@ -1,0 +1,14 @@
+---
+title: "Web apps in R - To package or not to package?"
+description: "Different approaches to developing web apps in R"
+author:
+  - name: Christina Buelow
+date: 2024-04-19
+categories: [quarto, R, web app, golem] # self-defined categories
+citation: 
+  url: https://cabuelow.github.io/personal-website/posts/2024-04-19-app-pros-cons/ 
+image: header.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Quarto quick and dirty or Golem for longevity?
