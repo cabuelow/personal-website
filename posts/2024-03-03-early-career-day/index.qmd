@@ -11,7 +11,7 @@ image: header.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-I was privileged to give a talk titled **Actionable pathways to Sustainable Oceans & Coasts** at a full-day workshop on the future of Australia's ocean and coastal ecosystems. 
+I was given the privilege of presenting research on **Actionable pathways to Sustainable Oceans & Coasts** at a workshop on the future of Australia's ocean and coastal ecosystems. 
 
 The workshop was for early career researchers and practitioners, providing a forum for discussing their unique perspective on how Australia can achieve a sustainable future for oceans and coasts.
 
