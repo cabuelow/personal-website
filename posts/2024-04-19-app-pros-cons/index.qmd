@@ -7,7 +7,7 @@ date: 2024-04-19
 categories: [quarto, R, web app, golem] # self-defined categories
 citation: 
   url: https://cabuelow.github.io/personal-website/posts/2024-04-19-app-pros-cons/ 
-image: shiny.jpeg
+image: shiny.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
