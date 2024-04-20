@@ -181,8 +181,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="quarto-quick-and-dirty-or-golem-for-longevity-and-complexity" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-quick-and-dirty-or-golem-for-longevity-and-complexity">Quarto ‘quick and dirty’ or {Golem} for longevity and complexity?</h3>
+<p>As expected in an open-source programming language, the app-making landscape in <strong>R</strong> seems to be in constant flux. Something <em>newish</em> that I’ve been finding useful lately is using <a href="https://quarto.org/docs/dashboards/interactivity/shiny-r.html">Quarto’s ‘Dashboards with Shiny for R’</a> feature.</p>
+<p><strong>Quarto</strong> is very similar to Rmarkdown, but has a few additional features. One of them is the ability to embed R {shiny} apps. So you end up writing your app like you would a markdown doc - the context, ui, and server are all code chunks, and the text around those code chunks set’s up the UI. For example, normally in markdown we use <code>#</code> to delineate and navigate headers; in Quarto Shiny Dashboards, <code>#</code> are used to delineate pages, tab panels, etc.</p>
+<p>I’ve found it’s great for proto-typing simple apps - you can get something up and running very quickly in <strong>Quarto’s ‘Dashboards with Shiny for R’</strong>. However, I think it could get unwieldy when you start building complex apps with modules etc. In that case, developing your {shiny} app as an R package with <a href="https://github.com/ThinkR-open/golem?tab=readme-ov-file#golem-">{golem}</a> might be a better option. {golem} provides a great framework for <a href="https://engineering-shiny.org/">engineering production grade shiny apps</a> that are complex and can be easily maintained in the long-term.</p>
+<p>I ended up turning the prototype app I built in <strong>Quarto’s ‘Dashboards with Shiny for R’</strong> into an R package with {golem}. It took much longer than I expected, but much of that time was learning about R package development (which I had never done before) and {golem}.</p>
+<p>In the end I think it was worth the extra time and effort streamline as an R package. But if you want to compare for yourself, find the <a href="https://github.com/cabuelow/oceans-dashboard?tab=readme-ov-file#oceans-mel-dashboard">protoype Quarto dashboard shiny here</a> and the {golem} <a href="https://github.com/cabuelow/OceansDash?tab=readme-ov-file#oceans-monitoring-evaluation--learning-dashboard">R package version here</a>.</p>
+<p>Curious to hear others’ experiences though - please get in touch.</p>
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{buelow2024,
   author = {Buelow, Christina},
