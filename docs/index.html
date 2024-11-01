@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.506">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,9 @@ ul.task-list li input[type="checkbox"] {
   "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
-    null
+    "f",
+    "/",
+    "s"
   ],
   "language": {
     "search-no-results-text": "No results",
@@ -55,6 +57,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -106,12 +109,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://globalwetlandsproject.org/"> <i class="bi bi-link" role="img">
+    <a class="nav-link" href="https://www.sydney.edu.au/science/our-research/research-areas/geosciences/marine-geosciences/thriving-oceans-research-hub.html"> <i class="bi bi-link" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:c.buelow@griffith.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+    <a class="nav-link" href="mailto:christina.buelow@sydney.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -138,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-about-jolla">
+<div class="quarto-about-jolla content">
   <img src="img/my_image.jpeg" class="about-image
   round " style="height: 15em; width: 15em;">
  <div id="about-block">
@@ -153,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-file-earmark-richtext"></i>
      <span class="about-link-text">Publications</span>
   </a>
-  <a href="mailto:c.buelow@griffith.edu.au" class="about-link" rel="" target="">
+  <a href="mailto:christina.buelow@sydney.edu.au" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">Email</span>
   </a>
@@ -162,8 +165,8 @@ ul.task-list li input[type="checkbox"] {
 
 <p>I’m a quantitative ecologist solving challenging problems related to conservation and sustainable use of Earth’s ecosystems. I use mathematical, statistical and spatial models to provide a robust evidence-base for decision-makers faced with difficult choices, such as how to set <a href="https://www.sciencedirect.com/science/article/pii/S0960982222002354">scientifically-sound targets for mangrove and seagrass conservation</a>. To engage and inform end-users I develop web tools, e.g., <a href="https://cbuelow.shinyapps.io/blue-forests-application/">this tool for exploring data related to conservation of the world’s Blue Forest ecosystems</a>.</p>
 <p>Find out more on the <a href="./research/index.html">Research</a>, <a href="./outreach/index.html">Outreach &amp; Teaching</a>, and <a href="./tools/index.html">Tools</a> pages.</p>
-<p>Currently, I’m a Research Fellow with the <a href="https://globalwetlandsproject.org/">Global Wetlands Project</a> at <a href="https://www.griffith.edu.au/">Griffith University</a>.</p>
-<p><a href="mailto:mail.c.buelow@griffith.edu.au">Get in touch</a>.</p>
+<p>Currently, I’m a Post-doctoral Researcher with the <a href="https://www.sydney.edu.au/science/our-research/research-areas/geosciences/marine-geosciences/thriving-oceans-research-hub.html">Thriving Oceans Research Hub</a> at <a href="https://www.sydney.edu.au/">The University of Sydney</a>. Previously I was a Research Fellow with the <a href="https://globalwetlandsproject.org/">Global Wetlands Project</a>.</p>
+<p><a href="mailto:christina.buelow@sydney.edu.au">Get in touch</a>.</p>
 
 
 
@@ -241,6 +244,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -275,7 +296,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -290,27 +315,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -325,10 +329,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -337,8 +345,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -563,7 +578,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block">© 2023 Christina Buelow CC BY-SA 4.0</span></p>
+<p><span class="faux-block">© 2024 Christina Buelow CC BY-SA 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

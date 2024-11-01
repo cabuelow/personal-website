@@ -12,7 +12,7 @@ about:
       href: https://scholar.google.com.au/citations?user=0zkZcKwAAAAJ&hl=en
     - icon: envelope
       text: Email
-      href: "mailto:c.buelow@griffith.edu.au"  
+      href: "mailto:christina.buelow@sydney.edu.au"  
 ---
 
 ::: {#about-block}
@@ -22,6 +22,6 @@ I'm a quantitative ecologist solving challenging problems related to conservatio
 
 Find out more on the [Research](research/index.qmd), [Outreach & Teaching](outreach/index.qmd), and [Tools](tools/index.qmd) pages.
 
-Currently, I'm a Research Fellow with the [Global Wetlands Project](https://globalwetlandsproject.org/) at [Griffith University](https://www.griffith.edu.au/).
+Currently, I'm a Post-doctoral Researcher with the [Thriving Oceans Research Hub](https://www.sydney.edu.au/science/our-research/research-areas/geosciences/marine-geosciences/thriving-oceans-research-hub.html) at [The University of Sydney](https://www.sydney.edu.au/). Previously I was a Research Fellow with the [Global Wetlands Project](https://globalwetlandsproject.org/).
 
-[Get in touch](mailto:mail.c.buelow@griffith.edu.au).
+[Get in touch](mailto:christina.buelow@sydney.edu.au).
